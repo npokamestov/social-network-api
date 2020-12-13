@@ -9,8 +9,9 @@ const ReactionSchema = new Schema(
         },
         reactionBody: {
             type: String,
-            required: true,
-            maxlength: 280
+            required: 'Reaction required',
+            minlength: [1, 'More characters required'],
+            maxlength: [280, 'Too many characters, 280 max']
         },
         username: {
             type: String,
@@ -47,9 +48,6 @@ const ThoughtSchema = new Schema(
             type: String,
             required: true,
             trim: true
-            // user that created this thought
-            // look into proper reference
-            // verify if this is a self input or autofill based on current user, if so, how do you distinguish user without loggin in?
         },
         reactions: [ReactionSchema]
     },

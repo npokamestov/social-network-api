@@ -77,7 +77,7 @@ n/a
 
 ## Link
 
-[Video Walkthrough](https://drive.google.com/file/d/18KhNZYABny9QYl7ou3fLbmb0k3D4w76X/view)
+[Video Walkthrough](https://drive.google.com/file/d/17oa_h83Z6yGLpGy9P8LA70hZvXN26W2C/view)
 
 ## Screenshot
 
